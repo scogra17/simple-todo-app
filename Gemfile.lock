@@ -7,7 +7,6 @@ GEM
     erubis (2.7.0)
     method_source (1.0.0)
     multi_json (1.12.1)
-    nio4r (2.5.8)
     pg (1.2.3)
     pry (0.13.1)
       coderay (~> 1.1)
@@ -15,8 +14,6 @@ GEM
     pry-byebug (3.9.0)
       byebug (~> 11.0)
       pry (~> 0.13.0)
-    puma (5.4.0)
-      nio4r (~> 2.0)
     rack (1.6.13)
     rack-protection (1.5.5)
       rack
@@ -37,21 +34,12 @@ GEM
     webrick (1.7.0)
 
 PLATFORMS
-<<<<<<< HEAD
   ruby
 
 DEPENDENCIES
   erubis
   pg
   pry-byebug
-=======
-  linux
-  x86_64-darwin-20
-
-DEPENDENCIES
-  erubis
->>>>>>> fe6d29f363b93e31fc753d452dc70ed91a6fd726
-  puma
   sinatra
   sinatra-contrib
   webrick

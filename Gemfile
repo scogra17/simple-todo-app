@@ -5,9 +5,9 @@ group :development do
   gem 'webrick'
 end
 
-group :production do
-  gem "puma"
-end
+# group :production do
+#   gem "puma"
+# end
 
 gem "sinatra"
 gem "sinatra-contrib"
